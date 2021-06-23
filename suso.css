@@ -1,0 +1,28 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+#container {
+    background-color: olivedrab;
+    height: 600px;
+    width: 600px;
+    margin: 1rem auto;
+    left: 100px;
+    position:absolute;
+    border: 3px solid;
+    border-radius: 5px;
+}
+#configure {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color:teal;
+    height: 600px;
+    width: 300px;
+    margin-top: 1rem;
+    position: absolute;
+    left: 750px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}

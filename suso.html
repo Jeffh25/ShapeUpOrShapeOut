@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up Or Shape Out</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="suso.css">
+</head>
+
+<body>
+    <h3>Rectangle</h3>
+    <label>Width</label>
+    <input type="number" id="rectangleWidth" placeholder="ex. 5">
+    <label>Height</label>
+    <input type="number" id="rectangleHeight" placeholder="ex. 10">
+    <button id="rectangleButton" type="button">Create Rectangle</button>
+    <h3>Square</h3>
+    <label>Side Length</label>
+    <input type="number" id="sideL" placeholder="ex. 10">
+    <button id="squareButton" type="button">Create Square</button>
+    <h3>Circle</h3>
+    <label>Radius</label>
+    <input type="text" id="circleRadius" placeholder="ex. 50%">%
+    <button id="circleButton" type="button">Create Circle</button>
+    <h3>Isoceles Right Triangle</h3>
+    <label>Height</label>
+    <input type="number" id="Isoceles" placeholder="ex. 15">
+    <button id="isocelesButton" type="button">Create Isoceles Right Triangle</button>
+    <br/>
+    <div id="container"></div>
+    <div id="configure">
+        <label>Shape Name:</label>
+        <input type="text" id="shapeInput">
+        <button id="shapeButton">Configure</button>
+        <label>Width:</label>
+        <input type="number" id="widthInput">
+        <button id="width">Configure</button>
+        <label>Height:</label>
+        <input type="number" id="heightInput">
+        <button id="height">Configure</button>
+        <label>Radius:</label>
+        <input type="number" id="radiusInput">
+        <button id="radius">Configure</button>
+        <label>Area:</label>
+        <input type="number" id="areaInput">
+        <button id="area">Configure</button>
+        <label>Perimeter:</label>
+        <input type="number" id="perimeterInput">
+        <button id="perimeter">Configure</button>
+    </div>
+    <script src='suso.js'></script>
+</body>
+
+</html>
