@@ -12,45 +12,41 @@
 </head>
 
 <body>
-    <h3>Rectangle</h3>
-    <label>Width</label>
-    <input type="number" id="rectangleWidth" placeholder="ex. 5">
-    <label>Height</label>
-    <input type="number" id="rectangleHeight" placeholder="ex. 10">
-    <button id="rectangleButton" type="button">Create Rectangle</button>
-    <h3>Square</h3>
-    <label>Side Length</label>
-    <input type="number" id="sideL" placeholder="ex. 10">
-    <button id="squareButton" type="button">Create Square</button>
-    <h3>Circle</h3>
-    <label>Radius</label>
-    <input type="text" id="circleRadius" placeholder="ex. 50%">%
-    <button id="circleButton" type="button">Create Circle</button>
-    <h3>Isoceles Right Triangle</h3>
-    <label>Height</label>
-    <input type="number" id="Isoceles" placeholder="ex. 15">
-    <button id="isocelesButton" type="button">Create Isoceles Right Triangle</button>
-    <br/>
+    <div id="inputs">
+        <h3>Rectangle</h3>
+        <label>Width</label>
+        <input type="text" id="rectangleWidth" placeholder="ex. 10">
+        <label>Height</label>
+        <input type="text" id="rectangleHeight" placeholder="ex. 5">
+        <button id="rectangleButton" type="button">Create Rectangle</button>
+        <h3>Square</h3>
+        <label>Side Length</label>
+        <input type="text" id="sideLength" placeholder="ex. 10">
+        <button id="squareButton" type="button">Create Square</button>
+        <h3>Circle</h3>
+        <label>Radius</label>
+        <input type="text" id="circleRadius" placeholder="ex. 50">
+        <button id="circleButton" type="button">Create Circle</button>
+        <h3>Isoceles Right Triangle</h3>
+        <label>Height</label>
+        <input type="text" id="Isoceles" placeholder="ex. 15">
+        <button id="isocelesButton" type="button">Create Isoceles Right Triangle</button>
+    </div>
+    <br />
     <div id="container"></div>
     <div id="configure">
         <label>Shape Name:</label>
         <input type="text" id="shapeInput">
-        <button id="shapeButton">Configure</button>
         <label>Width:</label>
-        <input type="number" id="widthInput">
-        <button id="width">Configure</button>
+        <input type="text" id="widthInput">
         <label>Height:</label>
-        <input type="number" id="heightInput">
-        <button id="height">Configure</button>
+        <input type="text" id="heightInput">
         <label>Radius:</label>
-        <input type="number" id="radiusInput">
-        <button id="radius">Configure</button>
+        <input type="text" id="radiusInput">
         <label>Area:</label>
-        <input type="number" id="areaInput">
-        <button id="area">Configure</button>
+        <input type="text" id="areaInput">
         <label>Perimeter:</label>
-        <input type="number" id="perimeterInput">
-        <button id="perimeter">Configure</button>
+        <input type="text" id="perimeterInput">
     </div>
     <script src='suso.js'></script>
 </body>
